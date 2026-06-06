@@ -1,7 +1,7 @@
-export const tool = {
+export const tokenGeneratorTool = {
     name: 'Token Generator',
     path: '/token-generator',
     category: 'Crypto',
-    description: 'Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.',
+    description: 'Generate random secure tokens using letters, numbers, and symbols.',
     component: () => import('./TokenGenerator.vue'),
 };
